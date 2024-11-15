@@ -1,7 +1,7 @@
-/*Basis*/
+/*Fakta, Basis*/
 faktorial(0, 1).
 
-/*Rekurens*/
+/*Aturan*/
 faktorial(X, Y):-
     X > 0,
     X1 is X - 1,
